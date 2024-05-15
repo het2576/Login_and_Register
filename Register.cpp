@@ -7,7 +7,7 @@ void login();
 void registration();
 void forgot();
 
-int main()
+int main()                       // login page 
 {
     int c;
     cout<<"\t\t\t______________________________________________\n\n\n";
@@ -44,8 +44,8 @@ int main()
     return 0;
 }
 
-    void login(){
-        int count=0;
+    void login(){                   // function for login
+        int count=0; 
         string userId,password,id,pass;
         system("cls");
         cout<<"\t\t\t Please enter the username and password : "<<endl;
@@ -76,7 +76,8 @@ int main()
 
     }
 
-    void registration(){
+    void registration(){                 // function for registration 
+        
         string r_userId,r_password,r_id,r_pass;
         system("cls");
         cout<<"\t\t\t Enter the Username : ";
@@ -91,7 +92,7 @@ int main()
         main();
      }
 
-     void forgot(){
+     void forgot(){                  // function for forgot password 
         int option;
         system("cls");
         cout<<"\t\t\t You forgot your password ?? No worries\n";
@@ -135,3 +136,5 @@ int main()
         }
 
      }
+
+       // Thankyou..;)
